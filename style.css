@@ -1,0 +1,124 @@
+* {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3 {
+	color: #13183f;
+}
+
+.main-container {
+	background-color: hsl(234, 25%, 98%);
+}
+
+.btn-primary {
+	all: unset;
+	color: white;
+	font-weight: 600;
+	font-size: 1.25rem;
+	padding: 1rem;
+	padding-inline: 1.75rem;
+	border-radius: 50px;
+	letter-spacing: 1px;
+	background-color: #13183f;
+	font-family: inherit;
+}
+
+nav {
+	max-width: 100%;
+	padding-top: 1rem;
+	padding-inline: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main-text {
+	margin-top: 2rem;
+}
+
+h1 {
+	font-size: 3.5em;
+	font-weight: 700;
+}
+
+.main-text p,
+p {
+	color: #83869a;
+	font-weight: 400;
+	font-size: 1.125rem;
+	line-height: 2rem;
+	margin-top: 1.5rem;
+}
+
+.start-btn {
+	font-family: inherit;
+	font-size: 1.25rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	background: linear-gradient(#f02aa6, #ff6f48);
+	color: white;
+	padding: 1.5rem;
+	border-radius: 50px;
+	padding-inline: 3.5rem;
+	margin-top: 1rem;
+}
+
+#hero-img {
+	margin-top: 0.5rem;
+	height: auto;
+	max-width: 100%;
+}
+
+.callout-div {
+	background: linear-gradient(#f02aa6, #ff6f48);
+	height: auto;
+	max-width: 100%;
+	padding: 2rem;
+	border-radius: 10px;
+	padding-block: 1.5rem;
+}
+
+.callout-div h2 {
+	color: white;
+	font-weight: 700;
+	line-height: 1.5;
+	font-size: 2rem;
+	padding-right: 2rem;
+}
+
+.features {
+	margin-top: 1.5rem;
+	align-items: center;
+}
+
+.feature {
+	margin: 0 auto;
+	margin-top: 1.5rem;
+	background-color: #ffffff;
+	border: 1px solid grey;
+	padding: 1rem;
+	padding-bottom: 1rem;
+	position: relative;
+}
+
+.feature h3 {
+	margin-top: 1.5rem;
+}
+
+.feature a {
+	color: #f02aa6;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 1.25rem;
+}
+
+.icon {
+	position: absolute;
+	top: -2.5rem;
+	height: auto;
+	max-width: 100%;
+}
